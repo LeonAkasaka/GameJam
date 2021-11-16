@@ -35,13 +35,14 @@ public class HomeScene : MonoBehaviour
         var e = new Button.ButtonClickedEvent();
         e.AddListener(() =>
         {
+            var random = Random.Range(1, 10);
             var c = new Currency(_currencyType, _quantity);
             var cc = game.CashInventory.Add(c);
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < random; i++)
             {
                 GameObject copy = Instantiate(_virusObj, _parent.transform);
                 copy.transform.localPosition = _spawner.transform.localPosition;
-                var point = ((float)i / 5) * oneCycle; // 周期の位置 (1.0 = 100% の時 2π となる)
+                var point = ((float)i / random) * oneCycle; // 周期の位置 (1.0 = 100% の時 2π となる)
                 var repeatPoint = point * repeat; // 繰り返し位置
 
                 var x = Mathf.Cos(repeatPoint);

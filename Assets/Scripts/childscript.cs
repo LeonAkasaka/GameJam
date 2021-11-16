@@ -10,12 +10,14 @@ public class childscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Invoke("Destroy", 3);
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    void Destroy()
     {
-        rectTransform.localPosition += rectTransform.forward;
+        Destroy(gameObject);
+        Debug.Log("è¡Ç¶ÇΩéûä‘" + Time.time);
     }
 }
