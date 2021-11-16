@@ -16,5 +16,7 @@ MonoBehaviour:
   _sprite: {fileID: 0}
   _price:
     _type: 0
-    _quantity: 0
-  _productivities: []
+    _quantity: 10000
+  _productivities:
+  - _type: 1
+    _quantity: 100
