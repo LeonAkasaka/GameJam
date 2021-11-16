@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e44f80b1b83c69449b8c692d6af7b6d, type: 3}
   m_Name: Item10
   m_EditorClassIdentifier: 
-  _name: "\u30E9\u30DC"
+  _name: laboratory
   _sprite: {fileID: 21300000, guid: 9bc72896f26162c4ea091e8d305a8be9, type: 3}
   _price:
     _type: 1
