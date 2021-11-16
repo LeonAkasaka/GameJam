@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cd94ed1869cc9b4da83647e2de95aaf, type: 3}
   m_Name: Enhancer2
   m_EditorClassIdentifier: 
-  _name: "\u5F37\u53162\uFF08\uFF1A\u30A2\u30A4\u30C6\u30E0\uFF12\uFF09"
-  _sprite: {fileID: 0}
+  _name: syrup
+  _sprite: {fileID: 21300000, guid: 0ab6a9e742ea7ea419d62b468bda7d0b, type: 3}
   _price:
     _type: 1
     _quantity: 500
