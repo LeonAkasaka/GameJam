@@ -16,6 +16,11 @@ public class HomeScene : MonoBehaviour
     [SerializeField]
     private double _quantity = 1;
 
+    [SerializeField]
+    private GameObject _virusObj;
+
+    [SerializeField]
+    private GameObject[] _spawner; 
     void Start()
     {
         var game = Game.Instance;
