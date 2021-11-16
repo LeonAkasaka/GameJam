@@ -86,5 +86,6 @@ namespace ClickerGame.Models
             }
             return 0;
         }
+
     }
 }
