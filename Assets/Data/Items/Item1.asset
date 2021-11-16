@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Item1
   m_EditorClassIdentifier: 
   _name: "\u30A2\u30A4\u30C6\u30E01"
-  _sprite: {fileID: 21300000, guid: 2c79be828ae0fa3419d95aa8641f9b53, type: 3}
+  _sprite: {fileID: 21300000, guid: c7f6ea43d5330d04bb745cb758859b48, type: 3}
   _price:
     _type: 1
     _quantity: 10
