@@ -1570,6 +1570,8 @@ MonoBehaviour:
   _scoreButton: {fileID: 1074721185}
   _currencyType: 1
   _quantity: 1
+  _virusObj: {fileID: 0}
+  _spawner: []
 --- !u!114 &958371668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1728,6 +1730,7 @@ GameObject:
   - component: {fileID: 1074721187}
   - component: {fileID: 1074721186}
   - component: {fileID: 1074721185}
+  - component: {fileID: 1074721188}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1819,8 +1822,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e6149c01d44cd9045814a229f47bf70e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1837,6 +1840,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074721183}
   m_CullTransparentMesh: 0
+--- !u!95 &1074721188
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074721183}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 09f8d97232cfcc64a8f438ea87c94436, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1096682973
 GameObject:
   m_ObjectHideFlags: 0
