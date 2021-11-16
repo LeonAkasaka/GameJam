@@ -15,7 +15,7 @@ MonoBehaviour:
   _name: sewage
   _sprite: {fileID: 21300000, guid: b28313bbd1e52d94ebe1c3774db69003, type: 3}
   _price:
-    _type: 0
+    _type: 1
     _quantity: 100000000
   _productivities:
   - _type: 1
