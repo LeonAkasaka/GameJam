@@ -15,7 +15,7 @@ MonoBehaviour:
   _name: crowds
   _sprite: {fileID: 21300000, guid: 0b3353805b10c024ea802df2aa07aaa5, type: 3}
   _price:
-    _type: 0
+    _type: 1
     _quantity: 10000000
   _productivities:
   - _type: 1
