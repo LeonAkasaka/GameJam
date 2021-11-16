@@ -26,13 +26,19 @@ public class naoki_rnd : MonoBehaviour
         var e = new Button.ButtonClickedEvent();
         e.AddListener(() =>
         {
-            if(FB == false)
+            Debug.Log("クリック回数＝" + key);
+            if (FB == false)
             {
                 key++;
                 if (key >= rnd)
                 {
                     FB = true;
+                    key = 0;
                 }
+
+
+
+
             }
 
          });
@@ -45,7 +51,8 @@ public class naoki_rnd : MonoBehaviour
     {
         if(FB == true)
         {
-
+            Debug.Log("ランダムイベント発生");
         }
+
     }
 }
