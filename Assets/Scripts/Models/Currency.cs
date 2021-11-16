@@ -16,7 +16,7 @@ namespace ClickerGame.Models
         /// <summary>
         /// ゴールド。
         /// </summary>
-        Gold,
+        円,
     }
 
     /// <summary>
