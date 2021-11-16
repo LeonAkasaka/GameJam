@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e44f80b1b83c69449b8c692d6af7b6d, type: 3}
   m_Name: Item2
   m_EditorClassIdentifier: 
-  _name: "\u305E\u3046\u304D\u3093"
+  _name: duster
   _sprite: {fileID: 21300000, guid: 2640b294fc1073748b41019487089565, type: 3}
   _price:
     _type: 1

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e44f80b1b83c69449b8c692d6af7b6d, type: 3}
   m_Name: Item5
   m_EditorClassIdentifier: 
-  _name: "\u751F\u3054\u307F"
+  _name: garbage
   _sprite: {fileID: 21300000, guid: 9dc2013431f290a46aa46ecf33b32d0d, type: 3}
   _price:
     _type: 0
