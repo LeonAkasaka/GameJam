@@ -77,7 +77,8 @@ namespace ClickerGame.Models
             if (item == null) { throw new ArgumentNullException(nameof(item)); }
 
             var c = GetCount(item);
-            return new Currency(item.Price.Type, item.Price.Quantity);
+            
+            return new Currency(item.Price.Type, item.Price.Quantity*1.2);
         }
 
         /// <summary>

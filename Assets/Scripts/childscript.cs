@@ -10,7 +10,7 @@ public class childscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Destroy", 3);
+        Invoke("Destroy", 5);
     }
 
 
@@ -18,6 +18,5 @@ public class childscript : MonoBehaviour
     void Destroy()
     {
         Destroy(gameObject);
-//        Debug.Log("è¡Ç¶ÇΩéûä‘" + Time.time);
     }
 }
