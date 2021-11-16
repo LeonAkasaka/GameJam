@@ -75,12 +75,12 @@ public class HomeScene : MonoBehaviour
                     FB = true;
                 }
 
-                m_event.SetActive(true);
+//                m_event.SetActive(true);
 
             }
-            else {
-                m_event.SetActive(false);
-            }
+ //           else {
+ //               m_event.SetActive(false);
+ //           }
 
         });
         _scoreButton.onClick = e;

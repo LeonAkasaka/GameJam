@@ -954,6 +954,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7273278123242730129, guid: 689c704d1c6ed3f4b87fb51f498334a5,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273278123242730129, guid: 689c704d1c6ed3f4b87fb51f498334a5,
+        type: 3}
       propertyPath: _scoreButton
       value: 
       objectReference: {fileID: 1074721185}
@@ -961,6 +966,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameObject_naoki
+      objectReference: {fileID: 0}
+    - target: {fileID: 7615481047566819940, guid: 689c704d1c6ed3f4b87fb51f498334a5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 689c704d1c6ed3f4b87fb51f498334a5, type: 3}
@@ -1693,7 +1703,7 @@ MonoBehaviour:
   _spawner: {fileID: 1772463824}
   speed: 20
   _parent: {fileID: 1332856672}
-  m_event: {fileID: 0}
+  m_event: {fileID: 1902990930}
 --- !u!114 &958371668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3369,7 +3379,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1902990931
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3420,7 +3430,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Fever!!!
 --- !u!222 &1902990933
