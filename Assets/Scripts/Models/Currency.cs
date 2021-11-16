@@ -16,7 +16,7 @@ namespace ClickerGame.Models
         /// <summary>
         /// ゴールド。
         /// </summary>
-        Gold,
+        virus,
     }
 
     /// <summary>
