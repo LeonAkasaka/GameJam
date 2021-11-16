@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e44f80b1b83c69449b8c692d6af7b6d, type: 3}
   m_Name: Item6
   m_EditorClassIdentifier: 
-  _name: 
-  _sprite: {fileID: 0}
+  _name: "\u30B4\u30DF\u7F6E\u304D\u5834"
+  _sprite: {fileID: 21300000, guid: 169605d2328201d46ba4fd088dd95f0a, type: 3}
   _price:
     _type: 0
     _quantity: 1000000
