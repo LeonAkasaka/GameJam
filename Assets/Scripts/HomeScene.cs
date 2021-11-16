@@ -27,8 +27,18 @@ public class HomeScene : MonoBehaviour
     private GameObject _parent;
     private float repeat = 2f; // 何周期するか
     float oneCycle = 2.0f * Mathf.PI; // sin の周期は 2π
+
+    //ランダムイベント用
+    bool FB = false;
+    int key = 0;
+    int rnd = 0;
+    [SerializeField] GameObject m_event;
+
     void Start()
     {
+        rnd = Random.Range(10, 100);
+
+
         var game = Game.Instance;
         _score.DataSource = game.CashInventory;
 
@@ -53,6 +63,25 @@ public class HomeScene : MonoBehaviour
                 //var direction = Quaternion.Euler(angles) * Vector3.forward;
                 copy.GetComponent<Rigidbody2D>().AddForce(position * speed, ForceMode2D.Impulse);
             }
+
+
+            //randomイベント
+            Debug.Log("クリック回数＝" + key);
+            if (FB == false)
+            {
+                key++;
+                if (key >= rnd)
+                {
+                    FB = true;
+                }
+
+                m_event.SetActive(true);
+
+            }
+            else {
+                m_event.SetActive(false);
+            }
+
         });
         _scoreButton.onClick = e;
     }

@@ -18,6 +18,6 @@ public class childscript : MonoBehaviour
     void Destroy()
     {
         Destroy(gameObject);
-        Debug.Log("è¡Ç¶ÇΩéûä‘" + Time.time);
+//        Debug.Log("è¡Ç¶ÇΩéûä‘" + Time.time);
     }
 }
